@@ -13,7 +13,7 @@ const router = createRouter({
 
         // Unauthenticated User Pages
         {
-            path: process.env.NODE_ENV === "production" ? "/happy-mothers-day-2023/" : "/",
+            path: process.env.NODE_ENV === "production" ? "/happy-fathers-day-2023/" : "/",
             name: 'Home',
             component: Home
         },
