@@ -8,6 +8,7 @@ import { prismjsPlugin } from 'vite-plugin-prismjs'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: process.env.NODE_ENV === "production" ? "/happy-fathers-day-2023/" : "/",
     plugins: [
         vue(),
         prismjsPlugin({
