@@ -27,7 +27,7 @@
     "@types/node": "^20.3.1",
     "@types/prismjs": "^1.26.0",
     "@vitejs/plugin-vue": "^4.1.0",
-    "@vitest/coverage-c8": "^0.32.2",
+    "@vitest/coverage-v8": "^0.32.2",
     "@vue/test-utils": "^2.3.2",
     "@vueuse/head": "^1.1.26",
     "autoprefixer": "^10.4.14",
