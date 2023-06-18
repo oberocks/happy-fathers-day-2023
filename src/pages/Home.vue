@@ -36,14 +36,14 @@
                 <li class="pb-3">Know what's funny, too!</li>
 
                 <li>From corny jokes</li>
-                <li>To moments of despair,</li>
+                <li>To times of despair,</li>
                 <li>Dad's keep on going,</li>
                 <li class="pb-3">With or without hair.</li>
 
                 <li>So once every year,</li>
                 <li>We all take a day,</li>
                 <li>To tell our dad's thank you</li>
-                <li class="pb-3">In appreciative ways.</li>
+                <li class="pb-3">In meaningful ways.</li>
 
                 <li>Because dad's are needed.</li>
                 <li>And crucial. And there.</li>
@@ -58,7 +58,7 @@
                 <li>So no matter what happens,</li>
                 <li>Remember this truth:</li>
                 <li>There is no hero like</li>
-                <li>The dad that helped to make you.</li>
+                <li>The dad that made you.</li>
 
             </ul>
 
