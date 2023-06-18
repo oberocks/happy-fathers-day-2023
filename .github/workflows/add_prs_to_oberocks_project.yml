@@ -1,0 +1,19 @@
+# ./.github/workflows/add_prs_to_oberocks_project.yml
+
+name: Add PRs to @oberocks project
+
+on:
+  pull_request:
+    types:
+      - opened
+      # - labeled
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@main
+        with:
+          project-url: https://github.com/users/oberocks/projects/11
+          github-token: ${{ secrets.MATT_MCT_LLC_AUTOMATION_PERSONAL_ACCESS_TOKEN }}

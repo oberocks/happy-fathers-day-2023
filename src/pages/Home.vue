@@ -3,249 +3,66 @@
 
 <script setup lang="ts">
 
-    import { ref } from 'vue'
-    import { VueVentusSpinningMark } from '@obewds/vueventus'
-    import appVv from '../app.vv'
-    import VvAnchor from '../components/vv/anchors/VvAnchor.vue'
-    import VvButton from '../components/vv/buttons/VvButton.vue'
-    import VvCheckbox from '../components/vv/inputs/VvCheckbox.vue'
-    import VvEl from '../components/vv/elements/VvEl.vue'
-    import VvFa from '../components/vv/elements/VvFa.vue'
-    import VvFormGroup from '../components/vv/forms/VvFormGroup.vue'
-    import VvInput from '../components/vv/inputs/VvInput.vue'
-    import VvList from '../components/vv/lists/VvList.vue'
-    import VvListbox from '../components/vv/selects/VvListbox.vue'
-    import VvListItem from '../components/vv/lists/VvListItem.vue'
-    import VvPrism from '../components/vv/elements/VvPrism.vue'
-    import VvQuadFormGroup from '../components/vv/forms/VvQuadFormGroup.vue'
-    import VvRadio from '../components/vv/inputs/VvRadio.vue'
-    import VvRouterLink from '../components/vv/anchors/VvRouterLink.vue'
-    import VvSelect from '../components/vv/selects/VvSelect.vue'
-    import VvTextarea from '../components/vv/textareas/VvTextarea.vue'
-
-    const msg = 'Vue 3, Tailwind CSS, Headless UI, Vue Router, Vite & Typescript'
-
-    const count = ref(0)
+    import TheFooter from '../components/TheFooter.vue'
 
 </script>
 
 
 <template>
 
-    <div class="text-center px-6 pt-20">
-        
-        <div class="max-w-2xl grid grid-cols-5 items-center gap-8 px-8 pb-10 mx-auto">
+    <div class="relative w-full h-full top-0 left-0 overflow-hidden px-4">
 
-            <img alt="Vue logo" src="../assets/logo-vue.svg"/>
-            <img alt="Tailwind CSS logo" src="../assets/logo-tailwindcss.svg"/>
-            <div>
-                <!-- div wrapper is needed so Safari contains the flex size of an svg/img child correctly -->
-                <VueVentusSpinningMark animation-class="animate-spin-reverse-4s"/>
-            </div>
-            <img alt="Vite.js logo" src="../assets/logo-vite.svg"/>
-            <img alt="Typescript logo" src="../assets/logo-typescript.svg"/>
+        <div class="max-w-xl bg-lightBlue-100 dark:bg-lightBlue-700 bg-opacity-90 dark:bg-opacity-85 text-lightBlue-800 dark:text-lightBlue-100 rounded-xl shadow-lg mx-auto mb-24 px-6">
 
-        </div>
-
-        <div class="w-full flex flex-col text-center space-y-3">
-
-            <h1 class="text-2xl">{{ msg }}</h1>
-
-            <p>
-                Recommended IDE setup: <VvAnchor href="https://code.visualstudio.com/" color="success" target="_blank">VS Code</VvAnchor> + <VvAnchor href="https://github.com/johnsoncodehk/volar" color="success" target="_blank">Volar</VvAnchor>
-            </p>
-
-            <p>
-                See <VvEl tag="span" ground-palette="monochromatic" ground-color="success" class="px-2 rounded">README.md</VvEl> for more information.
-            </p>
-
-            <p>
-                <VvAnchor href="https://vitejs.dev/guide/features.html" color="success" target="_blank">Vite Docs</VvAnchor> | <VvAnchor href="https://v3.vuejs.org/" color="success" target="_blank">Vue 3 Docs</VvAnchor>
-            </p>
-
-            <div class="py-4">
-                <VvButton color="primary" @click="count++">Count is: {{ count }}</VvButton>
+            <div class="max-w-2xl mx-auto text-center text-3xl pt-12">
+                Happy Father's Day!
             </div>
 
-            <p>
-                Edit <VvEl tag="span" ground-palette="monochromatic" ground-color="success" class="px-2 rounded">components/HelloWorld.vue</VvEl> to test hot module replacement.
-            </p>
+            <ul class="text-lg py-6">
 
-            <div class="flex flex-col w-full max-w-xl gap-10 mx-auto text-center pt-8">
-            
-                <div>
+                <li>Do father's make</li>
+                <li>The world go around?</li>
+                <li>When one sees you fall,</li>
+                <li class="pb-3">And saves you from the ground?</li>
 
-                    <VvAnchor href="https://github.com/obewds/vueventus" color="primary">
-                        VvAnchor
-                    </VvAnchor>
-                    <span> | </span>
-                    <VvRouterLink to="/" color="primary">
-                        VvRouterLink Test
-                    </VvRouterLink>
+                <li>Or maybe when one</li>
+                <li>Sees you late or behind,</li>
+                <li>And bends time and space</li>
+                <li class="pb-3">To get you there in time?</li>
 
-                </div>
-            
-                <div>
+                <li>And what about fort battles,</li>
+                <li>Or game time or poop?</li>
+                <li>It's father's that always</li>
+                <li class="pb-3">Know what's funny, too!</li>
 
-                    <VvButton color="primary">
-                        VvButton Test
-                    </VvButton>
+                <li>From corny jokes</li>
+                <li>To moments of despair,</li>
+                <li>Dad's keep on going,</li>
+                <li class="pb-3">With or without hair.</li>
 
-                </div>
-            
-                <div>
+                <li>So once every year,</li>
+                <li>We all take a day,</li>
+                <li>To tell our dad's thank you</li>
+                <li class="pb-3">In appreciative ways.</li>
 
-                    <VvEl color="primary" palette="solid">
-                        VvEl Test Div
-                    </VvEl>
+                <li>Because dad's are needed.</li>
+                <li>And crucial. And there.</li>
+                <li>They deserve our respect,</li>
+                <li class="pb-3">And our love and our care.</li>
 
-                </div>
-            
-                <div>
+                <li>So thank you dear papas,</li>
+                <li>For all that you do,</li>
+                <li>You keep us in check,</li>
+                <li class="pb-3">And you teach us stuff, too!</li>
 
-                    <VvFa family="fas" icon="house" size="3x"/>
+                <li>So no matter what happens,</li>
+                <li>Remember this truth:</li>
+                <li>There is no hero like</li>
+                <li>The dad that helped to make you.</li>
 
-                </div>
+            </ul>
 
-                <div class="text-left">
-
-                    <VvFormGroup
-                        label="VvFormGroup Test:"
-                        label-for="vv-input-test"
-                        :display-help="true"
-                        help-text="This is example help text"
-                    >
-                        <VvInput id="vv-input-test" color="default" placeholder="VvInput Test"/>
-                    </VvFormGroup>
-
-                </div>
-
-                <div class="text-left">
-
-                    <VvQuadFormGroup
-                        label="VvQuadFormGroup Test:"
-                        label-for="vv-textarea-test"
-                        :display-help="true"
-                        help-text="This is example help text"
-                        top-wrapper-classes="flex justify-between items-end gap-3"
-                    >
-                        <template v-slot:top>
-                            <button class="text-xl">&times;</button>
-                        </template>
-
-                        <VvTextarea id="vv-textarea-test" color="default" placeholder="VvTextarea Test"/>
-
-                        <template v-slot:bottom>
-                            <VvEl size="sm">0/100</VvEl>
-                        </template>
-                    </VvQuadFormGroup>
-
-                </div>
-
-                <div class="text-left">
-
-                    <div class="flex flex-col w-full space-y-2">
-
-                        <div class="flex items-center gap-2">
-                            <VvCheckbox id="option-one" color="primary" :checked="true"/>
-                            <label for="option-one">The First Option</label>
-                        </div>
-
-                        <div class="flex items-center gap-2">
-                            <VvCheckbox id="option-two" color="primary"/>
-                            <label for="option-two">The Second Option</label>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="text-left">
-
-                    <div class="flex flex-col space-y-1">
-                        <div class="flex items-center gap-2">
-                            <VvRadio
-                                id="lightType-1"
-                                name="lightType"
-                                value="sunlight"
-                                :checked="true"
-                                color="primary"
-                            />
-                            <label for="lightType-1">Sunlight</label>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <VvRadio
-                                id="lightType-2"
-                                name="lightType"
-                                value="moonlight"
-                                :checked="false"
-                                color="primary"
-                            />
-                            <label for="lightType-2">Moonlight</label>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="text-left">
-
-                    <VvList list-style-type-class="list-disc" class="pl-3">
-                        <li>.list-disc Item One</li>
-                        <li>.list-disc Item Two</li>
-                    </VvList>
-
-                </div>
-
-                <div>
-
-                    <ul class="w-full list-disc text-left pl-4">
-
-                        <VvListItem>VvListItem Test</VvListItem>
-
-                        <VvListItem symbol-color="success">VvListItem Test</VvListItem>
-
-                    </ul>
-
-                </div>
-
-                <div>
-                    <VvListbox
-                        label="VvListbox Example:"
-                        listbox-options-without-label-spacing="pt-1"
-                        listbox-options-with-label-spacing="pt-1"
-                    />
-                </div>
-
-                <div>
-                    <VvListbox
-                        listbox-options-without-label-spacing="pt-1"
-                        listbox-options-with-label-spacing="pt-1"
-                    />
-                </div>
-
-                <div>
-                    <VvSelect>
-                        <option value="">Select an Option</option>
-                        <option value="one">Default Color Option 1</option>
-                        <option value="two">Default Color Option 2</option>
-                    </VvSelect>
-                </div>
-
-            </div>
-
-            <div class="max-w-4xl pt-12 text-left mx-auto">
-            
-                <p class="text-lg font-bold pb-1">Current <VvEl tag="span" ground-palette="monochromatic" ground-color="success" class="px-2 rounded">./src/app.vv.ts</VvEl> Configuration Values:</p>
-            
-                <VvPrism>
-                    <pre>
-                        <code class="line-numbers language-javascript">
-                            {{ appVv }}
-                        </code>
-                    </pre>
-                </VvPrism>
-            
-            </div>
+            <TheFooter/>
 
         </div>
 
@@ -253,3 +70,52 @@
 
 </template>
 
+<style>
+
+.heart {
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -m-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+ }
+
+.heart:before {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+.heart:after {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+@-webkit-keyframes love {
+  0%{top:110%}
+}
+@-moz-keyframes love {
+  0%{top:110%}
+}
+@-ms-keyframes love {
+  0%{top:110%}
+}
+@keyframes love {
+  0%{top:110%}
+}
+
+</style>

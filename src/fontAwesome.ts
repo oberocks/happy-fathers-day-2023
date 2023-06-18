@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 //
 import { faFaceSurprise as FaSolidFaceSurprise } from '@fortawesome/free-solid-svg-icons/faFaceSurprise'
 import { faHouse as FaSolidHouse } from '@fortawesome/free-solid-svg-icons/faHouse'
+import { faHeart as FaSolidHeart } from '@fortawesome/free-solid-svg-icons/faHeart'
 
 // Default app guide brand icon imports
 // import { faApple } from '@fortawesome/free-brands-svg-icons/faApple'
@@ -28,6 +29,7 @@ import { faVuejs } from '@fortawesome/free-brands-svg-icons/faVuejs'
 library.add(
     FaSolidFaceSurprise,
     FaSolidHouse,
+    FaSolidHeart,
 
     // faApple,
     // faBootstrap,
