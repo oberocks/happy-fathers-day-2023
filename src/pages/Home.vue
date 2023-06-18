@@ -18,7 +18,7 @@
                 Happy Father's Day!
             </div>
 
-            <ul class="text-lg py-6">
+            <ul class="text-lg leading-tight py-6">
 
                 <li>Do father's make</li>
                 <li>The world go around?</li>
