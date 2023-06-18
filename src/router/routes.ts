@@ -12,7 +12,11 @@ const router = createRouter({
     routes: [
 
         // Unauthenticated User Pages
-        { path: '/', name: 'Home', component: Home },
+        {
+            path: process.env.NODE_ENV === "production" ? "/happy-mothers-day-2023/" : "/",
+            name: 'Home',
+            component: Home
+        },
 
         // Route Catchall
         { path: '/:pathMatch(.*)*', component: NotFound404 },
