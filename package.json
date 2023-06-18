@@ -1,0 +1,19 @@
+{
+  "name": "happy-fathers-day-2023",
+  "version": "0.1.1",
+  "description": "A repository for a happy father's day project for an awesome dad ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oberocks/happy-fathers-day-2023.git"
+  },
+  "author": "Matt McT",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/oberocks/happy-fathers-day-2023/issues"
+  },
+  "homepage": "https://github.com/oberocks/happy-fathers-day-2023#readme"
+}
