@@ -16,7 +16,7 @@
     "bump:major": "npm version major && npm run build && npm run changelog"
   },
   "dependencies": {
-    "@obewds/vueventus": "^0.61.1",
+    "@obewds/vueventus": "^0.61.5",
     "vue": "^3.2.47"
   },
   "devDependencies": {
