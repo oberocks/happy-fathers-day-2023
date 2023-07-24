@@ -48,7 +48,7 @@
     "vite-plugin-prismjs": "^0.0.8",
     "vitest": "^0.32.2",
     "vue-router": "^4.2.2",
-    "vue-tsc": "^1.8.2"
+    "vue-tsc": "^1.8.6"
   },
   "description": "A repository for a happy father's day project for an awesome dad ",
   "main": "index.js",
