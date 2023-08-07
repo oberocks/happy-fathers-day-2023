@@ -41,7 +41,7 @@
     "postcss": "^8.4.24",
     "prism-theme-vars": "^0.2.4",
     "prismjs": "^1.29.0",
-    "tailwind-scrollbar": "^3.0.4",
+    "tailwind-scrollbar": "^3.0.5",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
