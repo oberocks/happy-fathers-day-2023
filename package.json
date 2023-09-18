@@ -37,7 +37,7 @@
     "auto-changelog": "^2.4.0",
     "autoprefixer": "^10.4.14",
     "gsap": "^3.12.1",
-    "happy-dom": "^9.20.3",
+    "happy-dom": "^12.0.1",
     "postcss": "^8.4.24",
     "prism-theme-vars": "^0.2.4",
     "prismjs": "^1.29.0",
